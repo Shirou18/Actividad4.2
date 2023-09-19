@@ -1,0 +1,49 @@
+* {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+header{
+    font: bold 1.3em verdana;
+    background-color: #feffe4;
+}
+h1{
+    text-align: center;
+    padding: 0.5em;
+}
+nav{
+    float: left;
+    width: 25%;
+    background-color: #feffe4;
+}
+nav img{
+    width: 35%;
+    margin: 5%;
+    cursor: pointer;
+}
+#principal{
+    float: left;
+    width: 75%;
+}
+#visor{
+    width: 60%;
+    margin: 10%;
+}
+#visor img{
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}

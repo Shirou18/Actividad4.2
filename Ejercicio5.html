@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    <link rel="stylesheet" href="css/stylePokemon.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Daño</h1>
+        <form id="damageCalculator">
+            <label for="type1">Tipo 1:</label>
+            <select id="type1" name="type1">
+                <option value="electricidad">Electricidad</option>
+                <option value="agua">Agua</option>
+                <option value="fuego">Fuego</option>
+                <option value="hierba">Hierba</option>
+            </select>
+
+            <label for="type2">Tipo 2:</label>
+            <select id="type2" name="type2">
+                <option value="electricidad">Electricidad</option>
+                <option value="agua">Agua</option>
+                <option value="fuego">Fuego</option>
+                <option value="hierba">Hierba</option>
+            </select>
+
+            <label for="attack">Ataque:</label>
+            <input type="number" id="attack" name="attack" required>
+
+            <label for="defense">Defensa:</label>
+            <input type="number" id="defense" name="defense" required>
+
+            <button type="button" id="calculateButton">Calcular Daño</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="js/script5.js"></script>
+    <section class="footer" id="footer">
+        <p>&copy; 2023 David Rodríguez. Todos los derechos reservados</p>
+    </section>
+</body>
+</html>
